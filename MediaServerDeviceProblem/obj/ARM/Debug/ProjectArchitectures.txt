@@ -1,0 +1,1 @@
+C:\Users\idimi\Source\Repos\MediaServerDevicesProblem\MediaServerDeviceProblem\MediaServerDeviceProblem.csproj;arm
