@@ -31,7 +31,7 @@ namespace MediaServerDeviceProblem
 		{
 			if (rootFolder == null)
 				return null;
-			var lpSubfolders = await rootFolder.GetFoldersAsync();
+			var lpSubfolders = await rootFolder.GetItemsAsync();//if jellyfin doesnt return folders with getfoldersasync/only if GetItemsAsync is used
 			return lpSubfolders.First((folder) => { return folder.Name == strFolderName; }) as Windows.Storage.StorageFolder;
 		}
 
